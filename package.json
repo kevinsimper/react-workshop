@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "reveal-md index.md --theme white"
+  },
+  "dependencies": {
+    "reveal-md": "0.0.27"
+  }
+}
