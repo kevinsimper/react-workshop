@@ -4,6 +4,7 @@ img {
 }
 pre {
   font-size: 1em !important;
+  line-height: 1em !important;
 }
 </style>
 # React Lima
@@ -319,3 +320,60 @@ formDomNode.onSubmit = function (e) {}
 ```
 
 ---
+
+```
+var Form = React.createClass({
+  ...
+  render: function () {
+    return (
+      <form onSubmit={this.onSubmit}>
+        ...
+      </form>
+    )
+  }
+})
+```
+
+---
+
+```
+var Form = React.createClass({
+  onSubmit: function (e) {
+    e.preventDefault()
+    $.ajax({
+      method: 'POST',
+      data: {
+        value: value
+      }
+    })
+  },
+  ...
+})
+```
+
+---
+
+# http://requestb.in/
+
+---
+
+## 🚀 Forth task
+## Submit to requestb.in
+
+---
+
+## https://formspree.io
+
+---
+
+## 🚀 Fifth task
+## Finallize the contactform
+
+---
+
+## 🚀 Sixth task
+## Error handling
+
+---
+
+## 🚀 Create multipage form
